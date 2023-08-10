@@ -6,5 +6,5 @@
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/assets/images/dashboard.jpg);
+    background-image: url('assets/images/dashboard.jpg');
 }
