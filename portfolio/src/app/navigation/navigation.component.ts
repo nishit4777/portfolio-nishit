@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class NavigationComponent {
 
+  constructor() { }
+
+
+  ngOnInit(): void {
+    this.setValuesInit();
+  }
+
+  private setValuesInit(){
+
+  }
+
+  public onClickMenu(){
+  }
+
 }
