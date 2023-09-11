@@ -329,6 +329,14 @@ header .navbar ul li a:hover {
 .social-icons a.instagram:hover {
   background-color: #ee00da;
 }
+
+.social-icons a.mail:hover {
+  background-color: #BB001B;
+}
+
+.social-icons a.whatsapp:hover {
+  background-color: #25D366;
+}
 /* social icons end */
 
 /* hero media queries starts*/
