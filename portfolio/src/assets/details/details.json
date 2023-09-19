@@ -1,0 +1,64 @@
+{
+	"education": {
+		"school": [
+			{
+				"name": "GRD PUBLIC SCHOOL",
+				"yearOfPassing": "2016",
+				"class": "10",
+				"classInWords": "TENTH",
+				"place": "Coimbatore",
+				"state": "Tamil Nadu",
+				"address": "Civil Aerodrome, Post, Peelamedu, Civil Aerodrome Post, Coimbatore, Tamil Nadu 641014",
+				"cgpa": "9.6",
+				"grade": "96%",
+				"webLink": "https://www.grd.org/grdps/",
+				"key": "GRDPS"
+			},
+			{
+				"name": "SKV HIGHER SECONDARY SCHOOL",
+				"yearOfPassing": "2018",
+				"class": "12",
+				"classInWords": "TWELFTH",
+				"place": "Namakkal",
+				"state": "Tamil Nadu",
+				"address": "M.Kandampalayam, Tiruchengode(via), Namakkal,637201",
+				"cgpa": "8.8",
+				"grade": "88%",
+				"webLink": "https://skvhrsec.edu.in/index.html",
+				"key": "SKV"
+			}
+		],
+		"college": [
+			{
+				"name": "SRI KRISHNA COLLEGE OF ENGINEERING AND TECHNOLOGY",
+				"yearOfPassing": "2022",
+				"class": "B.E",
+				"classInWords": "Bachelor of Engineering",
+				"place": "Coimbatore",
+				"state": "Tamil Nadu",
+				"address": "Kuniamuthur, Coimbatore, TamilNadu - 641008",
+				"cgpa": "9.3",
+				"grade": "93%",
+				"webLink": "https://www.skcet.ac.in/",
+				"key": "SKCET"
+			}
+		]
+	},
+	"experience": [
+		{
+			"name": "APPLIED DATA FINANCE",
+			"startDate": "14/06/2021",
+			"endDate": "11/03/2022",
+			"totalExperience": "9 Months",
+			"role": "Intern",
+			"roleDescription": "Worked as a intern in software development and program analytics",
+			"place": "Chennai",
+			"state": "Tamil Nadu",
+			"address": "No. 56/3A, 200 Feet Road, Pallikaranai, Chennai, TamilNadu - 600100",
+			"platforms": "",
+			"webLink": "https://www.applieddatafinance.com/",
+			"key": "ADF"
+		}
+	],
+	"skills": {}
+}

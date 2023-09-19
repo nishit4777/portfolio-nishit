@@ -217,7 +217,7 @@ header .navbar ul li a:hover {
 }
 .home .image {
   flex: 1 1 40rem;  
-  mix-blend-mode: multiply;
+  /* mix-blend-mode: multiply; */
   z-index: 1;
 }
 .home .image img {
