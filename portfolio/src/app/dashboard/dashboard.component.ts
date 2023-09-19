@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import Typed from 'typed.js';
+
+declare var particlesJS: any;
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -23,6 +25,7 @@ export class DashboardComponent {
   private setValuesInit() {
     this.getTypingText();
     this.setSocialLink();
+    particlesJS.load('particles-js', 'assets/details/particle.json', null);
   }
 
   private getTypingText() {
@@ -36,7 +39,7 @@ export class DashboardComponent {
   }
 
   private setSocialLink() {
-    this.whatsappLink = "https://wa.me/8903547795";
+    this.whatsappLink = "https://wa.me/918903547795";
     this.githubLink = "https://github.com/nishit4777/";
     this.xLink = "https://twitter.com/nishit4777";
     this.gmailLink = "mailto:nishitmohanasundaram@gmail.com";
