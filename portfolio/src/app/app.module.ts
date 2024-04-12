@@ -11,20 +11,18 @@ import { ExperienceComponent } from './experience/experience.component';
 import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavigationComponent,
-    DashboardComponent,
-    AboutComponent,
-    ContactComponent,
-    ExperienceComponent,
-    SkillsComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        NavigationComponent,
+        DashboardComponent,
+        AboutComponent,
+        ContactComponent,
+        ExperienceComponent,
+        SkillsComponent
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
