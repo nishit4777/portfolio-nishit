@@ -23,7 +23,7 @@ body {
 }
 
 *::selection {
-  background: #2b3dda;
+  background: #e90364 ;
   color: #fff;
 }
 
@@ -35,10 +35,10 @@ html::-webkit-scrollbar {
   width: 0.8rem;
 }
 html::-webkit-scrollbar-track {
-  background: rgb(235, 202, 245);
+  background: #f637e3;
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #e90364;
 }
 
 /* pre loader start */
@@ -85,19 +85,19 @@ section {
   text-align: center;
 }
 .heading span {
-  color: #ad0000;
+  color: #e90364;
 }
 header .logo {
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #0e2431;
+  color: #e90364 ;
   
 }
 header .logoimg
 {
-  width: 40%;
-  height: 40%;
+  width: 10%;
+  height: 30%;
   margin-top: 10px;
 }
 header .logo i {
@@ -125,8 +125,8 @@ header .navbar ul li a {
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #011aff;
-  border-bottom: 0.2rem solid #011aff;
+  color: #e90364 ;
+  border-bottom: 0.2rem solid #e90364 ;
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -237,7 +237,7 @@ header .navbar ul li a:hover {
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: #ad0000;
+  color: #e90364;
 }
 .home .content p {
   font-size: 2.5rem;
@@ -247,7 +247,7 @@ header .navbar ul li a:hover {
 }
 .home .content p span {
   font-size: 2.5rem;
-  color: rgb(148, 8, 8);
+  color: #e90364;
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -259,8 +259,8 @@ header .navbar ul li a:hover {
   border-radius: 4em;
   transition: 0.5s;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+  background: #e90364;
+  box-shadow: 0px 5px 18px #f637e3;
   font-family: "Nunito", sans-serif;
 }
 .home .btn span {
@@ -274,7 +274,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .home .btn:hover {
-  background: #1a047e;
+  background: #f637e3;
 }
 .home .btn:hover i {
   transform: translateX(5px);
@@ -420,7 +420,7 @@ header .navbar ul li a:hover {
   text-transform: none;
 }
 .about .row .content .box-container .box p span {
-  color: #011aff;
+  color: #e90364 ;
 }
 .resumebtn {
   margin-top: 6rem;
@@ -430,8 +430,8 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.3s;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  background: #e90364 ;
+  box-shadow: 0px 5px 10px f637e3;
   font-family: "Nunito", sans-serif;
 }
 .resumebtn .btn span {
@@ -445,7 +445,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: #1a047e;
+  background: #f637e3;
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
@@ -477,7 +477,7 @@ header .navbar ul li a:hover {
 /* skills section starts */
 .skills {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: linear-gradient(to bottom, #e90364, #f637e3);
 }
 .skills h2 {
   color: #fff;
@@ -487,7 +487,7 @@ header .navbar ul li a:hover {
 }
 .skills .container {
   background: rgba(0, 0, 22, 0.4);
-  color: #fff;
+  color: black;
   border-radius: 1rem;
   padding: 2rem;
   width: 90%;
@@ -505,12 +505,12 @@ header .navbar ul li a:hover {
   padding: 10px;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 22, 0.9);
+  background: #fff;
   transition: 0.2s;
 }
 .skills .container .bar:hover {
   box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
-  background-color: rgba(0, 0, 0, 0.9) !important;
+  background-color: #fff !important;
 }
 .skills .container .bar .info {
   display: flex;

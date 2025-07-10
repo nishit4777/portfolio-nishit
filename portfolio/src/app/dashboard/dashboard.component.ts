@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import Typed from 'typed.js';
 
@@ -6,7 +7,10 @@ declare var particlesJS: any;
     selector: 'app-dashboard',
     templateUrl: './dashboard.component.html',
     styleUrls: ['./dashboard.component.css'],
-    standalone: true
+    standalone: true,
+    imports:[
+      CommonModule
+    ]
 })
 export class DashboardComponent {
 
@@ -31,7 +35,7 @@ export class DashboardComponent {
 
   private getTypingText() {
     const typed = new Typed('.typing-text', {
-      strings: ['frontend development', 'backend development', 'web designing', 'Full Stack development', 'web development'],
+      strings: ['frontend development', 'backend development', 'Full Stack development'],
       loop: true,
       typeSpeed: 50,
       backSpeed: 25,

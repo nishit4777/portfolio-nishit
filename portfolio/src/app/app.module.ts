@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -14,7 +12,6 @@ import { SkillsComponent } from './skills/skills.component';
     declarations: [AppComponent],
     imports: [
         BrowserModule,
-        AppRoutingModule,
         NavigationComponent,
         DashboardComponent,
         AboutComponent,
