@@ -1,11 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-
-export interface Skills {
-  name: string;
-  icon: string;
-}
+import { Details } from '../models/Details.model';
 
 @Injectable({
   providedIn: 'root'
@@ -13,11 +9,12 @@ export interface Skills {
 export class PortfolioService {
 
   private http = inject(HttpClient);
-  private skillsJsonFile = 'assets/details/skills.json'
+  private skillsJsonFile = 'assets/details/details.json'
 
   constructor() { }
 
-  getSkillsJSON(): Observable<Skills[]> {
-    return this.http.get<Skills[]>(this.skillsJsonFile);
+  getDetilsJSON(): Observable<Details> {
+    return this.http.get<Details>(this.skillsJsonFile);
   }
+
 }
