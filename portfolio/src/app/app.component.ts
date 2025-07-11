@@ -6,6 +6,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { SkillsComponent } from './skills/skills.component';
 import { CommonModule } from '@angular/common';
+import { EducationComponent } from './education/education.component';
 
 @Component({
     selector: 'app-root',
@@ -19,7 +20,8 @@ import { CommonModule } from '@angular/common';
         AboutComponent,
         ContactComponent,
         ExperienceComponent,
-        SkillsComponent
+        SkillsComponent,
+        EducationComponent
     ],
 })
 export class AppComponent {

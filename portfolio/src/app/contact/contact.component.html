@@ -1,1 +1,46 @@
-<p>contact works!</p>
+<section class="contact" id="contact">
+
+    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+    <div class="container">
+        <div class="content">
+            <div class="image-box">
+                <img draggable="false" src="assets/images/contact.png" alt="">
+            </div>
+            <form id="contact-form" #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+                <div class="form-group">
+                    <div class="field">
+                        <input type="text" name="name" placeholder="Name" required [(ngModel)]="contact.name"
+                            #name="ngModel" />
+                        <i class='fas fa-user'></i>
+                    </div>
+                    <div class="field">
+                        <input type="email" name="email" placeholder="Email" required [(ngModel)]="contact.email"
+                            #email="ngModel" />
+                        <i class='fas fa-envelope'></i>
+                    </div>
+                    <div class="message">
+                        <textarea placeholder="Message" name="message" required [(ngModel)]="contact.message"
+                            #message="ngModel"></textarea>
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                </div>
+                <div class="button-area">
+                    <button type="submit" [disabled]="contactForm.invalid">Submit <i
+                            class="fa fa-paper-plane"></i></button>
+                </div>
+            </form>
+        </div>
+        <!-- Thank you message -->
+        <div *ngIf="submitted" class="form-thankyou">
+           <h3>Thank you for contacting!<i class="fa fa-heart pulse"></i></h3>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer">
+    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
+            href="https://www.linkedin.com/in/nishit-mohan-934b80192/"> Nishit M</a></h1>
+
+</section>

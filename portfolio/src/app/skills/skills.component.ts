@@ -7,7 +7,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     templateUrl: './skills.component.html',
     styleUrls: ['./skills.component.css'],
     standalone: true,
-    imports: [ReactiveFormsModule,]
+    imports: [ReactiveFormsModule]
 })
 export class SkillsComponent implements OnInit {
 
@@ -18,9 +18,9 @@ export class SkillsComponent implements OnInit {
     constructor() { }
 
     ngOnInit(): void {
-        this.portfolioService.getSkillsJSON().subscribe({
+        this.portfolioService.getDetilsJSON().subscribe({
             next: data => {
-                this.skillsData = data;
+                this.skillsData = data.skills;
             },
             error: error => {
                 console.error('Error while fetching skills data:', error);

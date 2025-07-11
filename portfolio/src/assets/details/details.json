@@ -1,64 +1,255 @@
 {
-	"education": {
-		"school": [
-			{
-				"name": "GRD PUBLIC SCHOOL",
-				"yearOfPassing": "2016",
-				"class": "10",
-				"classInWords": "TENTH",
-				"place": "Coimbatore",
-				"state": "Tamil Nadu",
-				"address": "Civil Aerodrome, Post, Peelamedu, Civil Aerodrome Post, Coimbatore, Tamil Nadu 641014",
-				"cgpa": "9.6",
-				"grade": "96%",
-				"webLink": "https://www.grd.org/grdps/",
-				"key": "GRDPS"
-			},
-			{
-				"name": "SKV HIGHER SECONDARY SCHOOL",
-				"yearOfPassing": "2018",
-				"class": "12",
-				"classInWords": "TWELFTH",
-				"place": "Namakkal",
-				"state": "Tamil Nadu",
-				"address": "M.Kandampalayam, Tiruchengode(via), Namakkal,637201",
-				"cgpa": "8.8",
-				"grade": "88%",
-				"webLink": "https://skvhrsec.edu.in/index.html",
-				"key": "SKV"
-			}
-		],
-		"college": [
-			{
-				"name": "SRI KRISHNA COLLEGE OF ENGINEERING AND TECHNOLOGY",
-				"yearOfPassing": "2022",
-				"class": "B.E",
-				"classInWords": "Bachelor of Engineering",
-				"place": "Coimbatore",
-				"state": "Tamil Nadu",
-				"address": "Kuniamuthur, Coimbatore, TamilNadu - 641008",
-				"cgpa": "9.3",
-				"grade": "93%",
-				"webLink": "https://www.skcet.ac.in/",
-				"key": "SKCET"
-			}
-		]
-	},
+	"education": [
+		{
+			"name": "SRI KRISHNA COLLEGE OF ENGINEERING AND TECHNOLOGY",
+			"year": "2018-2022",
+			"class": "B.E",
+			"classInWords": "Bachelor of Engineering in Computer Science",
+			"place": "Coimbatore",
+			"state": "Tamil Nadu",
+			"address": "Kuniamuthur, Coimbatore, TamilNadu - 641008",
+			"cgpa": "9.3",
+			"grade": "93%",
+			"webLink": "https://www.skcet.ac.in/",
+			"key": "SKCET",
+			"image":"assets/images/skcet.jpeg"
+		},
+		{
+			"name": "SKV HIGHER SECONDARY SCHOOL",
+			"year": "2016-2018",
+			"class": "12th Grade",
+			"classInWords": "Higher Secondary School",
+			"place": "Namakkal",
+			"state": "Tamil Nadu",
+			"address": "M.Kandampalayam, Tiruchengode(via), Namakkal,637201",
+			"cgpa": "8.8",
+			"grade": "88%",
+			"webLink": "https://skvhrsec.edu.in/index.html",
+			"key": "SKV",
+			"image":"assets/images/skv.jpg"
+		},
+		{
+			"name": "GRD PUBLIC SCHOOL",
+			"year": "2015-2016",
+			"class": "10th Grade",
+			"classInWords": "Secondary School – CBSE",
+			"place": "Coimbatore",
+			"state": "Tamil Nadu",
+			"address": "Civil Aerodrome, Post, Peelamedu, Civil Aerodrome Post, Coimbatore, Tamil Nadu 641014",
+			"cgpa": "9.6",
+			"grade": "96%",
+			"webLink": "https://www.grd.org/grdps/",
+			"key": "GRDPS",
+			"image":"assets/images/grdps.png"
+		}
+	],
 	"experience": [
 		{
-			"name": "APPLIED DATA FINANCE",
+			"title": "Software Engineer",
+			"role": "Full Stack Developer",
+			"company": "OPENTEXT",
+			"duration": "January 2025 – Present",
+			"responsibilities": [
+				"Developed responsive web applications using React, Node.js, and MongoDB.",
+				"Built RESTful APIs and integrated third-party services to automate internal workflows.",
+				"Optimized performance, reducing page load time by 30%.",
+				"Collaborated with UI/UX and QA teams to deliver new features on time."
+			],
+			"startDate": "01/01/2025",
+			"endDate": "",
+			"totalExperience": "",
+			"place": "Bangalore ",
+			"state": "Karnataka ",
+			"address": "65/2, Bagmane Tech Park, C. V. Raman Nagar, Byrasandra, Bangalore, Karnataka - 560093",
+			"platforms": "",
+			"webLink": "https://www.opentext.com/",
+			"key": "OT"
+		},
+		{
+			"title": "Associate Software Engineer",
+			"role": "Full Stack Developer",
+			"company": "MICROFOCUS (Now OPENTEXT)",
+			"duration": "August 2022 - December 2024",
+			"responsibilities": [
+				"Designed and implemented web applications using React and Node.js.",
+				"Maintained database schemas and wrote efficient queries in PostgreSQL.",
+				"Collaborated with product teams to translate requirements into technical solutions."
+			],
+			"startDate": "02/08/2022",
+			"endDate": "31/12/2024",
+			"totalExperience": "17 Months",
+			"place": "Bangalore ",
+			"state": "Karnataka ",
+			"address": "65/2, Bagmane Tech Park, C. V. Raman Nagar, Byrasandra, Bangalore, Karnataka - 560093",
+			"platforms": "",
+			"webLink": "https://www.opentext.com/microfocus",
+			"key": "MF"
+		},
+		{
+			"title": "Intern",
+			"role": "Full-Stack Developer Intern",
+			"company": "MICROFOCUS (Now OPENTEXT)",
+			"duration": "March 2022 - July 2022",
+			"responsibilities": [
+				"Developed front-end components with React and styled using CSS.",
+				"Assisted in backend API development using Express.js.",
+				"Participated in daily standups and code reviews."
+			],
+			"startDate": "14/03/2022",
+			"endDate": "31/07/2022",
+			"totalExperience": "5 Months",
+			"place": "Bangalore ",
+			"state": "Karnataka ",
+			"address": "65/2, Bagmane Tech Park, C. V. Raman Nagar, Byrasandra, Bangalore, Karnataka - 560093",
+			"platforms": "",
+			"webLink": "https://www.opentext.com/microfocus",
+			"key": "MF"
+		},
+		{
+			"title": "Intern",
+			"role": "Backend Developer Intern",
+			"company": "APPLIED DATA FINANCE",
+			"duration": "July 2021 - March 2022",
+			"responsibilities": [
+				"Built RESTful APIs using Node.js and Express.",
+				"Worked on database management and data migration tasks.",
+				"Improved application performance by optimizing query handling."
+			],
 			"startDate": "14/06/2021",
 			"endDate": "11/03/2022",
 			"totalExperience": "9 Months",
-			"role": "Intern",
-			"roleDescription": "Worked as a intern in software development and program analytics",
 			"place": "Chennai",
 			"state": "Tamil Nadu",
 			"address": "No. 56/3A, 200 Feet Road, Pallikaranai, Chennai, TamilNadu - 600100",
 			"platforms": "",
 			"webLink": "https://www.applieddatafinance.com/",
 			"key": "ADF"
+		},
+		{
+			"title": "Intern",
+			"role": "Data Science Intern",
+			"company": "TATA CONSULTANCY SERVICE",
+			"duration": "June 2021 - July 2021",
+			"responsibilities": [
+				"Performed exploratory data analysis and visualization using Python.",
+				"Developed predictive models with scikit-learn.",
+				"Presented findings to the data science team for business insights."
+			],
+			"startDate": "01/06/2021",
+			"endDate": "02/08/2021",
+			"totalExperience": "2 Months",
+			"place": "Remote",
+			"state": "",
+			"address": "",
+			"platforms": "",
+			"webLink": "https://www.tcs.com/",
+			"key": "TCS"
 		}
 	],
-	"skills": {}
+	"skills": [
+		{
+			"name": "Angular",
+			"icon": "https://img.icons8.com/?size=100&id=j9DnICNnlhGk&format=png&color=000000"
+		},
+		{
+			"name": "HTML5",
+			"icon": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+		},
+		{
+			"name": "CSS3",
+			"icon": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000"
+		},
+		{
+			"name": "SAAS",
+			"icon": "https://img.icons8.com/?size=100&id=QBqFNfPPB2Kx&format=png&color=000000"
+		},
+		{
+			"name": "JavaScript",
+			"icon": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+		},
+		{
+			"name": "Bootstrap",
+			"icon": "https://img.icons8.com/?size=100&id=84710&format=png&color=000000"
+		},
+		{
+			"name": "Java",
+			"icon": "https://img.icons8.com/?size=100&id=13679&format=png&color=000000"
+		},
+		{
+			"name": "Spring Boot",
+			"icon": "https://img.icons8.com/?size=100&id=90519&format=png&color=000000"
+		},
+		{
+			"name": "NodeJS",
+			"icon": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000"
+		},
+		{
+			"name": "TypeScript",
+			"icon": "https://img.icons8.com/?size=100&id=nCj4PvnCO0tZ&format=png&color=000000"
+		},
+		{
+			"name": "Maven",
+			"icon": "assets/images/Logo-Apache-Maven.png"
+		},
+		{
+			"name": "ANT",
+			"icon": "assets/images/Apache-Ant-logo.png"
+		},
+		{
+			"name": "Postgres DB",
+			"icon": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000"
+		},
+		{
+			"name": "MsSql DB",
+			"icon": "https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000"
+		},
+		{
+			"name": "Oracle DB",
+			"icon": "https://img.icons8.com/?size=100&id=39913&format=png&color=000000"
+		},
+		{
+			"name": "Jenkins",
+			"icon": "https://img.icons8.com/?size=100&id=39292&format=png&color=000000"
+		},
+		{
+			"name": "Docker",
+			"icon": "https://img.icons8.com/?size=100&id=22813&format=png&color=000000"
+		},
+		{
+			"name": "Git VCS",
+			"icon": "https://img.icons8.com/?size=100&id=20906&format=png&color=000000"
+		},
+		{
+			"name": "Gitlab",
+			"icon": "https://img.icons8.com/?size=100&id=34886&format=png&color=000000"
+		},
+		{
+			"name": "GitHub",
+			"icon": "https://img.icons8.com/?size=100&id=12599&format=png&color=000000"
+		},
+		{
+			"name": "Bitbucket",
+			"icon": "https://img.icons8.com/?size=100&id=20907&format=png&color=000000"
+		},
+		{
+			"name": "Azure",
+			"icon": "https://img.icons8.com/?size=100&id=VLKafOkk3sBX&format=png&color=000000"
+		},
+		{
+			"name": "WordPress",
+			"icon": "https://img.icons8.com/?size=100&id=13664&format=png&color=000000"
+		},
+		{
+			"name": "Tomcat",
+			"icon": "https://img.icons8.com/?size=100&id=QFcVqyh6lBh6&format=png&color=000000"
+		},
+		{
+			"name": "Nginx",
+			"icon": "https://img.icons8.com/?size=100&id=t2x6DtCn5Zzx&format=png&color=000000"
+		},
+		{
+			"name": "Activemq",
+			"icon": "assets/images/ActiveMq.png"
+		}
+	]
 }
