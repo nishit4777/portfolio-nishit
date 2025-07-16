@@ -25,7 +25,9 @@
                         </li>
                     </ul>
                     <br>
-                    <p><strong>Location:</strong> {{ exp.place }}, {{ exp.state }}</p>
+                    <p><strong>Location:</strong> {{ exp.place }}
+                        <span *ngIf="exp.key !== 'TCS'">, {{ exp.state }}</span>
+                    </p>
                 </div>
             </div>
         </div>

@@ -12,7 +12,7 @@
 			"grade": "93%",
 			"webLink": "https://www.skcet.ac.in/",
 			"key": "SKCET",
-			"image":"assets/images/skcet.jpeg"
+			"image": "assets/images/skcet.jpeg"
 		},
 		{
 			"name": "SKV HIGHER SECONDARY SCHOOL",
@@ -26,7 +26,7 @@
 			"grade": "88%",
 			"webLink": "https://skvhrsec.edu.in/index.html",
 			"key": "SKV",
-			"image":"assets/images/skv.jpg"
+			"image": "assets/images/skv.jpg"
 		},
 		{
 			"name": "GRD PUBLIC SCHOOL",
@@ -40,7 +40,7 @@
 			"grade": "96%",
 			"webLink": "https://www.grd.org/grdps/",
 			"key": "GRDPS",
-			"image":"assets/images/grdps.png"
+			"image": "assets/images/grdps.png"
 		}
 	],
 	"experience": [
@@ -50,10 +50,9 @@
 			"company": "OPENTEXT",
 			"duration": "January 2025 – Present",
 			"responsibilities": [
-				"Developed responsive web applications using React, Node.js, and MongoDB.",
-				"Built RESTful APIs and integrated third-party services to automate internal workflows.",
-				"Optimized performance, reducing page load time by 30%.",
-				"Collaborated with UI/UX and QA teams to deliver new features on time."
+				"Migrated core backend systems from Java 11 to Java 21, updating over 200 third-party libraries (including Hibernate, Jersey, Spring, Log4j, Infinispan) to improve system security, performance, and maintainability.",
+				"Led front-end modernization by upgrading from Angular 15 to Angular 19, including dependency upgrades (PrimeNG, Bootstrap, Node.js/NPM) to enhance UI consistency and cross-browser compatibility.",
+				"Working on migration of the IAM platform from on-premises to SaaS, deploying 10+ containerized microservices on Azure and OpenText private cloud, reducing infrastructure setup time by 25% within an IaC framework."
 			],
 			"startDate": "01/01/2025",
 			"endDate": "",
@@ -71,9 +70,9 @@
 			"company": "MICROFOCUS (Now OPENTEXT)",
 			"duration": "August 2022 - December 2024",
 			"responsibilities": [
-				"Designed and implemented web applications using React and Node.js.",
-				"Maintained database schemas and wrote efficient queries in PostgreSQL.",
-				"Collaborated with product teams to translate requirements into technical solutions."
+				"Modernized 20+ legacy IAM components (25-year-old Java code) to Java 11, aligning with Java 8+ standards for maintainability.",
+				"Successfully resolved over 200+ customer-reported issues, including critical vulnerabilities and PSV defects (e.g., XSS, SQL injection), earning the 'Best Employee' award for multiple consecutive months.",
+				"Assisted front-end modernization (Angular 13→15) and integrated BPMN workflows into Identity Manager application."
 			],
 			"startDate": "02/08/2022",
 			"endDate": "31/12/2024",
@@ -91,9 +90,8 @@
 			"company": "MICROFOCUS (Now OPENTEXT)",
 			"duration": "March 2022 - July 2022",
 			"responsibilities": [
-				"Developed front-end components with React and styled using CSS.",
-				"Assisted in backend API development using Express.js.",
-				"Participated in daily standups and code reviews."
+				"Worked on migrating a legacy frontend codebase from AngularJS to Angular 13, improving performance, maintainability, and alignment with modern web standards.",
+				"Gained hands-on experience with modern Angular practices, including RxJS, TypeScript, and component-based architecture."
 			],
 			"startDate": "14/03/2022",
 			"endDate": "31/07/2022",
@@ -111,9 +109,8 @@
 			"company": "APPLIED DATA FINANCE",
 			"duration": "July 2021 - March 2022",
 			"responsibilities": [
-				"Built RESTful APIs using Node.js and Express.",
-				"Worked on database management and data migration tasks.",
-				"Improved application performance by optimizing query handling."
+				"Developed Java/Spring Boot backend features for Personify Financials' real-time credit decisioning platform.",
+				"Wrote JUnit tests achieving >95% code coverage across core components; optimized microservices architecture and loan approval workflows."
 			],
 			"startDate": "14/06/2021",
 			"endDate": "11/03/2022",
@@ -131,9 +128,8 @@
 			"company": "TATA CONSULTANCY SERVICE",
 			"duration": "June 2021 - July 2021",
 			"responsibilities": [
-				"Performed exploratory data analysis and visualization using Python.",
-				"Developed predictive models with scikit-learn.",
-				"Presented findings to the data science team for business insights."
+				"Developed a deep learning model using TensorFlow to detect eye blink patterns and diagnose paralysis in patients.",
+				"Awarded Best Project for innovative approach and successful implementation."
 			],
 			"startDate": "01/06/2021",
 			"endDate": "02/08/2021",
