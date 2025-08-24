@@ -48,7 +48,7 @@ export class DashboardComponent {
     this.githubLink = "https://github.com/nishit4777/";
     this.xLink = "https://twitter.com/nishit4777";
     this.gmailLink = "mailto:nishitmohanasundaram@gmail.com";
-    this.linkedinLink = "https://www.linkedin.com/in/nishit-mohan-934b80192/";
+    this.linkedinLink = "https://www.linkedin.com/in/nishit-mohan/";
   }
 
 
